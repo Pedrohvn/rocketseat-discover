@@ -21,8 +21,16 @@ console.log('fim do programa')
 //function expression 
 
 //parêmetros (parameters)
-const sum = function(numeber1,number2){
-    console.log(numeber1 + number2)
+const sum = function(number1,number2){
+    console.log(number1 + number2)
 }
 
 sum(10,8)
+
+//function return
+
+const sum = function(number1,number2){
+    console.log(number1 + number2)
+}
+
+let number1
