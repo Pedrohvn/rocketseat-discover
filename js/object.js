@@ -1,4 +1,4 @@
-//object
+
 const person = {
     name: 'Pedro',
     age: 26,
