@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        sayMyName()
+        
+        function sayMyName(){ //neste caso a função é elevada permitindo a excução sem erros
+            console.log('Pedro')
+        }
+    /*------------------------------------
+    caso coloque ela em uma expressão declarando com var, const e let ela não sofrerá o hoisting*/
+        /*sayMyName()
+
+        const sayMyName = function(){
+            console.log('Pedro') //vai da erro
+        }*/
+
+        let meuNome = function meuNome(){
+            console.log('Pedro')
+
+        }
+        meuNome() //funciona por está depois da função 
+    </script>
+
+</body>
+</html>
