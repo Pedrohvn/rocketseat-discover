@@ -12,12 +12,13 @@
         function help (ajuda){
             console.log('precisa de ajuda?')
             ajuda()
-            console.log('Vamos te ajudar')
+            console.log('Vamos te ajudar.')
         }
-        help (ajuda){
-            console.log('Sim preciso!')
-        }
-           
+         help (
+             ()/*o que está dentro do parenteses é a tag da função*/ => {
+                 console.log('Sim preciso.')
+             }
+         )
     </script>
 </body>
 </html>
